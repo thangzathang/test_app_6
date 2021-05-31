@@ -8,4 +8,8 @@ class PagesController < ApplicationController
             # CONTROLLER - Data and objects sent
     end
 
+    def about
+        @title = "About"
+    end
+
 end
